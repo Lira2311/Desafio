@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+#imagem-fundo{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;   
+    border: none;
+    
+}
+main{
+    align-items: center;
+    display: inline;
+    justify-content: center; 
+  
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px rgb(150, 140, 140),
+    0 0 40px #3eb35b,
+    0 0 70px #2ba144,
+    0 0 80px #2fc43c,
+    0 0 100px #32ce46,
+    0 0 150px #1af049;
+        
+} 
+.container{
+    display: flex;
+    max-width: 100%;
+    max-height: 30vw;
+}
+img{
+    max-width: 80%;
+    height: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow:black 5px 5px 5px;
+    width: 100vw;
+    max-height: 50em;
+    
+}
+img:hover{
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(1.1);
+}
+.nome-personagem{
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 
+               -2px -2px 0px rgb(5, 5, 5), 
+               -2px 2px 0px rgb(7, 7, 7),      
+                2px -2px 0px rgb(7, 7, 7),    
+                1px 0px 0px rgb(8, 8, 8);
+    text-shadow: yellowgreen 5px 5px 5px;
+    
+    
+}
+.botao{
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    box-shadow: yellowgreen 5px 5px 5px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: medium;
+    font-weight: bold;
+    text-shadow: 0 0 10px yellowgreen;
+    border: none;
+    margin-top: 10px;  
+       
+}
+#btn:hover{
+    background-color: rgb(21, 53, 28);
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(1.1);
+}
+#btn:active{
+    box-shadow: inset -2px -2px 3px yellowgreen,
+    inset 2px 2px 3px whitesmoke;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%; 
+    height: 90px;
+    opacity: 8;
+}
+    
+
+
